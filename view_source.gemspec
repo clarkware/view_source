@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Mike Clark"]
   s.email       = ["mike@clarkware.com"]
   s.homepage    = ""
-  s.summary     = %q{View the source of any Ruby 1.9 method in TextMate}
-  s.description = %q{View the source of any Ruby 1.9 method in TextMate}
+  s.summary     = %q{irb plugin to view the source of a Ruby method in TextMate}
+  s.description = %q{irb plugin to view the source of a Ruby method in TextMate}
 
   s.rubyforge_project = "view_source"
 
