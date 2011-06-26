@@ -4,4 +4,8 @@ class Object
     `mate #{location[0]} -l #{location[1]}` if location
     location
   end
+  
+  def grep_methods(pattern)
+    methods.map(&:to_s).grep pattern
+  end
 end
